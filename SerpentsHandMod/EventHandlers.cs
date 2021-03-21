@@ -24,7 +24,7 @@ namespace SerpentsHandMod
             shPlayers.Clear();
             shPocketPlayers.Clear();
 
-            Timing.CallDelayed(0.1f, () =>
+            Timing.CallDelayed(0.3f, () =>
             {
                 List<Player> dClassList = Player.List.Where(x => x.Team == Team.CDP).ToList();
                 List<Player> toSpawn = new List<Player>();
